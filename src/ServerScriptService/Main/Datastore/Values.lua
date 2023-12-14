@@ -79,6 +79,8 @@ return {
 	{Name = "DisableTrade", Value = false, ID = 58, Type = "BoolValue"},
 	{Name = "DisableLegendaryChat2", Value = false, ID = 113, Type = "BoolValue"},
 	{Name = "DisableLegendaryChat", Value = false, ID = 110, Type = "BoolValue"},
+	{Name = "DisableTutorial", Value = false, ID = 116, Type = "BoolValue"},
+	{Name = "FirstTutorialFinished", Value = false, ID = 119, Type = "BoolValue"},
 
 	--// Upgrades
 	{Name = "Upgrade1", Value = 0, ID = 34, Type = "IntValue"},
@@ -162,10 +164,12 @@ return {
 	{Name = "Country", Value = "NL", ID = 49, Type = "StringValue"},
 	{Name = "Banned", Value = false, ID = 122, Type = "BoolValue"},
 	{Name = "Starterpack", Value = os.time() + 86400, ID = 65, Type = "NumberValue"},
-	{Name = "DailyQuestCoolDown", Value = os.time() + 86400, ID = 105, Type = "NumberValue"};
-	{Name = "LastLeft", Value = 0, ID = 106, Type = "NumberValue"};
+	{Name = "DailyQuestCoolDown", Value = os.time() + 86400, ID = 105, Type = "NumberValue"},
+	{Name = "LastLeft", Value = 0, ID = 106, Type = "NumberValue"},
 	
 	-- codes
 	
-	{Name = "DiscordReward", Value = false, ID = 112, Type = "BoolValue"};
+	{Name = "DiscordReward", Value = false, ID = 112, Type = "BoolValue"},
+
+
 }

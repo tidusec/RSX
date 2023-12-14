@@ -364,13 +364,6 @@ Remotes.Spin.OnServerInvoke = function(Player)
 	end
 end
 
-
---Remotes.FirstJoin.OnServerEvent:Connect(function(player)
---	player.Data.FirstJoin.Value = false
---	print(player.Data.FirstJoin.Value)
---	print("changing value")
---end)
-
 Remotes.SeasonPassQuestsChosen.OnServerEvent:Connect(function(player, ids)
 	player.Data.DailyQuestCoolDown.Value = os.time() + 86400
 

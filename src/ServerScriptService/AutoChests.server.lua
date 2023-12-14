@@ -1,5 +1,3 @@
-warn("ROOJO TEST")
-
 local RS = game:GetService("ReplicatedStorage")
 local Content = require(RS.Modules.Shared.ContentManager)
 local Multipliers = require(RS.Modules.Shared.Multipliers)
